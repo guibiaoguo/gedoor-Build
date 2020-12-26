@@ -1,8 +1,10 @@
 #!/bin/sh
 
 function set_env() { echo "$1=$2" >> $GITHUB_ENV; }
-APP_NAME='MyBookshelf'
-APP_GIT_URL='https://github.com/gedoor/MyBookshelf.git'
+#APP_NAME='MyBookshelf'
+#APP_GIT_URL='https://github.com/gedoor/MyBookshelf.git'
+APP_NAME='TVRemotePlay'
+APP_GIT_URL='https://github.com/guibiaoguo/TVRemotePlay.git'
 #APP_NAME="legado"
 #APP_GIT_URL="https://github.com/gedoor/legado.git"
 APP_SUFFIX="A"
